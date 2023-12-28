@@ -54,7 +54,7 @@ export function FooterUzb() {
         <div className="mapouter">
           <div className="gmap_canvas">
             <iframe
-              src="https://maps.google.com/maps?q=40.53530012355403, 68.41506248174507&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+              src="https://maps.google.com/maps?q=40.2248884,69.1303996,476&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
               style={{ width: 790, height: 500 }}
             ></iframe>
             <style>
@@ -118,7 +118,7 @@ export function FooterRu() {
         <div className="mapouter">
           <div className="gmap_canvas">
             <iframe
-              src="https://maps.google.com/maps?q=40.53530012355403, 68.41506248174507&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+              src="https://maps.google.com/maps?q=40.2248884,69.1303996,476&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
               style={{ width: 790, height: 500 }}
             ></iframe>
             <style>
@@ -182,7 +182,7 @@ export function FooterEng() {
         <div className="mapouter">
           <div className="gmap_canvas">
             <iframe
-              src="https://maps.google.com/maps?q=40.53530012355403, 68.41506248174507&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+              src="https://maps.google.com/maps?q=40.2248884,69.1303996,476&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
               style={{ width: 790, height: 500 }}
             ></iframe>
             <style>
