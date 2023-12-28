@@ -3,12 +3,13 @@ import { QuestionsRu } from "@/components/Questions";
 import Carusel from "@/components/carusel";
 import { GalleryRu } from "@/components/gallery/Gallery";
 import { GetNews } from "@/components/getNews";
-import { FooterRu, data } from "@/sections/Footer";
+import { FooterRu } from "@/sections/Footer";
 import { Header2 } from "@/sections/Header";
 import { Suspense } from "react";
 import bg from "../../../public/page-bg.jpg";
 import Image from "next/image";
 import { Metadata } from "next";
+import { data } from "@/data";
 
 export const metadata: Metadata = {
   title: "Ширинское районное медицинское объединение",

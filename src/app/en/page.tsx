@@ -1,4 +1,4 @@
-import { FooterEng, data } from "@/sections/Footer";
+import { data } from "../../data";
 import { Header2 } from "@/sections/Header";
 import { AboutEng } from "@/components/About";
 import { QuestionsEng } from "@/components/Questions";
@@ -9,6 +9,7 @@ import { Suspense } from "react";
 import bg from "../../../public/page-bg.jpg";
 import Image from "next/image";
 import { Metadata } from "next";
+import { FooterEng } from "@/sections/Footer";
 
 export const metadata: Metadata = {
   title: "Shirin regional Medical Association",

@@ -13,8 +13,9 @@ import { AboutUz } from "@/components/About";
 import { Suspense } from "react";
 import { GetNews } from "@/components/getNews";
 import { Header2 } from "@/sections/Header";
-import { FooterUzb, data } from "@/sections/Footer";
+import { FooterUzb } from "@/sections/Footer";
 import type { Metadata } from "next";
+import { data } from "@/data";
 
 export const metadata: Metadata = {
   title: "Shirin tuman tibbiyot birlashmasi",
