@@ -18,7 +18,7 @@ export default function ImageUploader() {
     let currentDate = new Date().toJSON().slice(0, 10);
     const randomNumber = uuidv4();
     event.preventDefault();
-    await setDoc(doc(db, "oqoltin", randomNumber), {
+    await setDoc(doc(db, "shirin", randomNumber), {
       uiud: randomNumber,
       name: name,
       message: text,
@@ -42,7 +42,7 @@ export default function ImageUploader() {
     //console.log('file:', e.target?.files[0])
     if (!file) return;
 
-    const storageRef = ref(storage, `oqoltin/${file.name}`);
+    const storageRef = ref(storage, `shirin/${file.name}`);
     const uploadTask = uploadBytesResumable(storageRef, file);
 
     uploadTask.on(

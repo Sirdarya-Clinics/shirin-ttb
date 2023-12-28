@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 
-const data = {
+export const data = {
   nomer: "67-764-51-31",
   email: "srd.shirin.shshtab@ssv.uz",
   uz_address:

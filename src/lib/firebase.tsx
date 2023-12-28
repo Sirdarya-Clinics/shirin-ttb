@@ -24,7 +24,7 @@ export const db = getFirestore(app);
 export const storage = getStorage(app);
 export const auth = getAuth(app);
 
-const collection_name = "oqoltin";
+const collection_name = "shirin";
 
 export const findAll = async () => {
   const doc_refs = await getDocs(collection(db, collection_name));

@@ -9,8 +9,6 @@ import Y3 from "../../public/bg3.jpg";
 import Y4 from "../../public/bg4.jpg";
 import Y5 from "../../public/bg5.jpg";
 import Y6 from "../../public/bg6.jpg";
-import Y7 from "../../public/bg7.jpg";
-import Y8 from "../../public/b8.jpg";
 import { Component } from "react";
 import Image from "next/image";
 
@@ -34,17 +32,12 @@ export default class NextJsCarousel extends Component {
           <div>
             <Image src={Y4} alt="image3" />
           </div>
-          <div>
-            <Image src={Y8} alt="image3" />
-          </div>
+
           <div>
             <Image src={Y5} alt="image3" />
           </div>
           <div>
             <Image src={Y6} alt="image2" />
-          </div>
-          <div>
-            <Image src={Y7} alt="image2" />
           </div>
           <div>
             <Image src={Y2} alt="image3" />

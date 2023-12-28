@@ -1,4 +1,4 @@
-import { FooterEng } from "@/sections/Footer";
+import { FooterEng, data } from "@/sections/Footer";
 import { Header2 } from "@/sections/Header";
 import { AboutEng } from "@/components/About";
 import { QuestionsEng } from "@/components/Questions";
@@ -11,13 +11,13 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Oqoltin regional medical association",
-  description: "Oqoltin regional medical association",
+  title: "Shirin regional Medical Association",
+  description: "Shirin regional medical association",
   keywords: [
     "ttb",
     "sogliqni saqlash",
     "sirdaryo",
-    "oqoltin",
+    "Shirin",
     "tibbiyot",
     "salomatlik",
     "bolnitsa sirdaryo",
@@ -26,9 +26,9 @@ export const metadata: Metadata = {
     "kasalliklar",
     "viloyat",
     "infeksion",
-    "oqoltin tuman",
+    "Shirin tuman",
     "tibbiyot birlashmasi",
-    "Oqoltin tuman tibbiyot birlashmasi",
+    "Shirin tuman tibbiyot birlashmasi",
   ],
 };
 
@@ -54,7 +54,7 @@ export default function EnPage() {
           <div className="text-white grid gap-4">
             <h4 className="font-medium  pt-4 leading-none"> Reception </h4>
             <p className=" text-white text-sm text-muted-foreground">
-              67-236-34-01
+              {data.nomer}
             </p>
           </div>
         </div>

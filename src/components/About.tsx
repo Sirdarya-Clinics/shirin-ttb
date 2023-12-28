@@ -3,7 +3,7 @@ export function AboutUz() {
     <>
       <div id="about" className="flex flex-col justify-center p-8">
         <h2 className=" text-2xl text-blue-600">
-          Oqoltin tuman tibbiyot birlashmasi haqida
+          Shirin tuman tibbiyot birlashmasi haqida
         </h2>
 
         <ul className="text-gray-500 content-center">
@@ -40,7 +40,7 @@ export function AboutEng() {
     <>
       <div id="about" className="flex flex-col justify-center p-8">
         <h2 className=" text-2xl text-blue-600">
-          About the Oqoltin regional medical association
+          About the Shirin regional medical association
         </h2>
 
         <ul className="text-gray-500 content-center">
@@ -74,7 +74,7 @@ export function AboutRu() {
     <>
       <div id="about" className="flex flex-col justify-center p-8">
         <h2 className=" text-2xl text-blue-600">
-          Об Околтинском районном медицинском объединении
+          Об Ширинском районном медицинском объединении
         </h2>
 
         <ul className="text-gray-500 content-center">

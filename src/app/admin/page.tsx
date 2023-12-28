@@ -53,7 +53,7 @@ function BlogListItem(props) {
     // const photoRef = storage.getInstance().getReferenceFromUrl(contentDTOs[p1].imageUrl.toString())
     // photoRef.delete()
 
-    const storageRef = ref(storage, `oqoltin/${file.name}`);
+    const storageRef = ref(storage, `shirin/${file.name}`);
     const uploadTask = uploadBytesResumable(storageRef, file);
 
     uploadTask.on(
@@ -92,7 +92,7 @@ function BlogListItem(props) {
     let currentDate = new Date().toJSON().slice(0, 10);
     //console.log('blog:',blog)
     event?.preventDefault();
-    await setDoc(doc(db, "oqoltin", blog.id), {
+    await setDoc(doc(db, "shirin", blog.id), {
       uuid: blog.id,
       name: name,
       message: text,
@@ -115,7 +115,7 @@ function BlogListItem(props) {
   // console.log(blog)
 
   const handleDelete = async (id: string) => {
-    const taskDocRef = doc(db, "oqoltin", id);
+    const taskDocRef = doc(db, "shirin", id);
     try {
       await deleteDoc(taskDocRef);
     } catch (err) {

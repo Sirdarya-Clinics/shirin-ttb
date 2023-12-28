@@ -3,7 +3,7 @@ import { QuestionsRu } from "@/components/Questions";
 import Carusel from "@/components/carusel";
 import { GalleryRu } from "@/components/gallery/Gallery";
 import { GetNews } from "@/components/getNews";
-import { FooterRu } from "@/sections/Footer";
+import { FooterRu, data } from "@/sections/Footer";
 import { Header2 } from "@/sections/Header";
 import { Suspense } from "react";
 import bg from "../../../public/page-bg.jpg";
@@ -11,13 +11,13 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Акалтинский районное медицинское объединение",
-  description: "Акалтинский районное медицинское объединение",
+  title: "Ширинское районное медицинское объединение",
+  description: "Ширинское районное медицинское объединение",
   keywords: [
     "ttb",
     "sogliqni saqlash",
     "sirdaryo",
-    "oqoltin",
+    "shirin",
     "tibbiyot",
     "salomatlik",
     "bolnitsa sirdaryo",
@@ -26,9 +26,9 @@ export const metadata: Metadata = {
     "kasalliklar",
     "viloyat",
     "infeksion",
-    "oqoltin tuman",
+    "shirin tuman",
     "tibbiyot birlashmasi",
-    "Oqoltin tuman tibbiyot birlashmasi",
+    "Shirin tuman tibbiyot birlashmasi",
   ],
 };
 
@@ -54,7 +54,7 @@ export default function RuPage() {
           <div className="text-white grid gap-4">
             <h4 className="font-medium  pt-4 leading-none"> Прием </h4>
             <p className=" text-white text-sm text-muted-foreground">
-              67-236-34-01
+              {data.nomer}
             </p>
           </div>
         </div>

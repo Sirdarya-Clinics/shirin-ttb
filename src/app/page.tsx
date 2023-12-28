@@ -13,7 +13,7 @@ import { AboutUz } from "@/components/About";
 import { Suspense } from "react";
 import { GetNews } from "@/components/getNews";
 import { Header2 } from "@/sections/Header";
-import { FooterUzb } from "@/sections/Footer";
+import { FooterUzb, data } from "@/sections/Footer";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -63,7 +63,7 @@ export default function Home() {
           <div className="text-white grid gap-4">
             <h4 className="font-medium  pt-4 leading-none"> Qabulxona </h4>
             <p className=" text-white text-sm text-muted-foreground">
-              67-764-51-31
+              {data.nomer}
             </p>
           </div>
         </div>
