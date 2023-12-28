@@ -217,7 +217,7 @@ export function FooterEng() {
               </li>
             </ul>
             <div className="flex flex-col ">
-              <p className="text-gray-500">{data.eng_adress}</p>
+              <p className="text-gray-500">{data.eng_address}</p>
               ____________________
               <p className="text-gray-500">
                 Reception : {data.nomer}
